@@ -1,0 +1,32 @@
+# profile.yml - Global personal configuration and section descriptions
+# Structure:
+# profile:
+#   name: Your full name
+#   role: Professional title
+#   location: City, Country
+#   email: Contact email
+#   socialLinks:
+#     platform_name: URL (Icon matched by name, e.g., github, linkedin, twitter)
+#   sectionDescriptions:
+#     [section_id]: "Short introductory text for that section"
+profile:
+  name: 杨皓开
+  role: 你好！
+  location: China
+  email: your.email@example.com
+  socialLinks:
+    github: https://github.com/yourname
+    # linkedin: https://www.linkedin.com/in/yourname
+    # website: https://your-domain.com
+    # youtube: https://www.youtube.com/user/yourname
+    # instagram: https://www.instagram.com/yourname
+    # twitter: https://twitter.com/yourname
+    # facebook: https://www.facebook.com/yourname
+    email: your.email@example.com
+    # phone: +1234567890
+  sectionDescriptions:
+     services: "I provide a wide range of design and development services, dedicated to creating exceptional digital experiences for clients."
+     projects: "Here are some of my recent representative projects, covering web design, mobile development, and more."
+     achievements: "Over the years, the recognition and awards I have received in my professional field testify to my growth and efforts."
+     testimonials: "Authentic feedback from partners and clients is the driving force for my continuous progress."
+     contact: "If you have any cooperation intentions or questions, please feel free to contact me through the following ways."

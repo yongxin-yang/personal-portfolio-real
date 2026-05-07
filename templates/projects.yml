@@ -1,0 +1,24 @@
+# projects.yml - Template for project list
+# Structure:
+# projects:
+#   - id: Unique ID
+#     title: Project Name
+#     category: Category Name (matches services.yml)
+#     summary: Short summary
+#     cover: Path (relative to File/)
+#     descriptionFile: Path to .md (relative to File/)
+#     links: { demo: URL, github: URL }
+#     attachments: [ { name: "", path: "" } ]
+projects:
+  - id: project-001
+    title: Awesome Project
+    category: Web Design
+    summary: A really cool project summary.
+    cover: projects/project-001/cover.jpg
+    descriptionFile: projects/project-001/description.md
+    links:
+      demo: https://demo.example.com
+      github: https://github.com/user/repo
+    attachments:
+      - name: Project Spec
+        path: projects/project-001/spec.pdf

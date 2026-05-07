@@ -1,0 +1,8 @@
+# skills.yml 模板：技能清单
+skills:
+  - title: Web development
+    level: 90
+  - title: AI+
+    level: 85
+  - title: Machine Learning
+    level: 80

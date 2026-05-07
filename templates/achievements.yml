@@ -1,0 +1,21 @@
+# achievements.yml - Template for achievement list
+# Structure:
+# achievements:
+#   - id: Unique identifier
+#     title: Achievement name
+#     summary: Short summary
+#     descriptionFile: Path to .md (relative to File/ root)
+#     link: URL
+#     links: { type: URL }
+#     attachments: [ { name: "", path: "" } ]
+achievements:
+  - id: achievement-001
+    title: Example Achievement
+    summary: A brief description of this achievement.
+    descriptionFile: achievements/achievement-001/text.md
+    link: https://example.com/verify
+    links:
+      certificate: https://example.com/cert.pdf
+    attachments:
+      - name: Certificate Scan
+        path: achievements/achievement-001/cert.png

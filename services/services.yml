@@ -1,0 +1,22 @@
+# services.yml - List of services offered
+# Structure:
+# services:
+#   - id: Unique identifier
+#     title: Service name (Also used as category name for projects)
+#     icon: Path to icon image (relative to File/ root)
+#     summary: Short description of the service
+services:
+  - id: service-001
+    title: Web Development
+    icon: services/icons/前后端.webp
+    summary: "Modern and responsive website designs."
+
+  - id: service-002
+    title: Machine Learning 
+    icon: services/icons/graphic.png
+    summary: "Visual communication and brand identity."
+
+  - id: service-003
+    title: AI+
+    icon: services/icons/ml.png
+    summary: "Data science and AI projects."

@@ -1,0 +1,23 @@
+# profile.yml - Template for personal configuration
+# Structure:
+# profile:
+#   name: Your Name
+#   role: Professional Title
+#   location: City, Country
+#   email: Email
+#   socialLinks: { platform: URL }
+#   sectionDescriptions: { section: "Description" }
+profile:
+  name: Your Name
+  role: Frontend Developer
+  location: China
+  email: your.email@example.com
+  socialLinks:
+    github: https://github.com/yourname
+    linkedin: https://www.linkedin.com/in/yourname
+  sectionDescriptions:
+    services: "Intro for services section"
+    projects: "Intro for projects section"
+    achievements: "Intro for achievements section"
+    testimonials: "Intro for testimonials section"
+    contact: "Intro for contact section"

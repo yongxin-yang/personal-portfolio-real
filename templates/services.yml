@@ -1,0 +1,12 @@
+# services.yml - Template for services list
+# Structure:
+# services:
+#   - id: Unique ID
+#     title: Service Name
+#     icon: Path (relative to File/)
+#     summary: Short description
+services:
+  - id: service-001
+    title: Web Development
+    icon: services/icons/web.png
+    summary: Building high-quality websites.

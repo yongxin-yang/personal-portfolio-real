@@ -1,0 +1,19 @@
+# achievements.yml - List of professional/academic achievements
+# Structure:
+# achievements:
+#   - id: Unique identifier
+#     title: Achievement name
+#     summary: Short one-line summary (Markdown supported)
+#     descriptionFile: Path to .md file for detailed content (relative to File/ root)
+#     link: Direct URL to proof or website
+#     links: 
+#       [type]: URL (types: certificate, verify, news, external)
+#     attachments:
+#       - name: Display name of the file
+#         path: Path to file (relative to File/ root)
+achievements:
+  - id: achievement-001
+    title: 示例成就
+    description: 这里写一条简短的成就说明。
+    textFile: achievements/achievement-001/text.md
+    links: https://example.com/certificate

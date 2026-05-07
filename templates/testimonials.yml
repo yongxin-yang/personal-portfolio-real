@@ -1,0 +1,15 @@
+# testimonials.yml - Template for testimonials
+# Structure:
+# testimonials:
+#   - id: Unique ID
+#     name: Reviewer Name
+#     title: Reviewer Role
+#     avatar: Path (relative to File/)
+#     text: Testimonial text
+#     textFile: Path to .md (relative to File/)
+testimonials:
+  - id: t001
+    name: John Doe
+    title: CEO at TechCorp
+    avatar: testimonials/avatars/john.jpg
+    text: "Working with this developer was a great experience."
